@@ -2,11 +2,11 @@ package learn1;
 
 public class PrintErrorAndDebug {
 public static void main(String arg[]){
-	System.out.println("main()·½·¨¿ªÊ¼ÔËĞĞÁË¡£");
-	//Êä³ö´íÎóĞÅÏ¢
-	System.err.println("ÔÚÔËĞĞÆÚ¼äÊÖ¶¯Êä³öÒ»¸ö´íÎóĞÅÏ¢£º");
-	System.err.println("\t¸ÃÈí¼şÃ»ÓĞÂò±£ÏÕ£¬Çë×¢Òâ°²È«");
+	System.out.println("main()æ–¹æ³•å¼€å§‹è¿è¡Œäº†ã€‚");
+	//è¾“å‡ºé”™è¯¯ä¿¡æ¯
+	System.err.println("åœ¨è¿è¡ŒæœŸé—´æ‰‹åŠ¨è¾“å‡ºä¸€ä¸ªé”™è¯¯ä¿¡æ¯ï¼š");
+	System.err.println("\tè¯¥è½¯ä»¶æ²¡æœ‰ä¹°ä¿é™©ï¼Œè¯·æ³¨æ„å®‰å…¨");
 	System.out.println("PrintErrorAndDebug.main()");
-	System.out.println("main()·½·¨ÔËĞĞ½áÊø¡£");	
+	System.out.println("main()æ–¹æ³•è¿è¡Œç»“æŸã€‚");	
 }
 }
