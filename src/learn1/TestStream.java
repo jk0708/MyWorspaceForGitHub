@@ -16,8 +16,9 @@ import java.io.InputStream;
 public class TestStream {
 
 	/*D:/workspace/2013JAVALEARN/bin/TestStream.cp.java 目标：在TestStream.java中写一段java代码，运行时将当前的TestStream.java文件内容读取出来，并输出到项目bin文件夹下的TestStream.cp.java文件。D:\workspace\GitHub\MyWorspaceForGitHub\src\learn1\TestStream.java*/
-	public static void main(String args[]){
+	public static void main(String args[]) throws IOException{
 		System.out.println("文件读写好复杂啊，一堆stream和reader，太乱了");
+		TestStream.rw();
 	}
 	public static void rw() throws IOException{
 		File file=new File("D:/workspace/GitHub/MyWorspaceForGitHub/src/learn1/TestStream.java");
@@ -40,7 +41,7 @@ public class TestStream {
 		BufferedWriter bw=new BufferedWriter(fw);
 		while(s!=null){
 			System.out.println(s);
-			bw.write(s);
+			bw.write(s);     
 			s=bf.readLine();
 		}
 		bf.close();
